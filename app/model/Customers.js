@@ -1,6 +1,5 @@
 Ext.define("SalesApp.model.Customers", {
   extend: "SalesApp.model.Base",
-  idProperty: "customerID",
   fields: [
     { name: "customerID", type: "string", allowNull: true },
     { name: "name", type: "string", allowNull: true },

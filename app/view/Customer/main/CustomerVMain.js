@@ -40,6 +40,14 @@ Ext.define("SalesApp.view.Customer.main.CustomerVMain", {
       height: 830, // Set the height of the grid
       scrollable: true, // Enable scrolling
       columns: [
+        { text:"",
+          xtype: 'checkcolumn',
+          dataIndex: 'selected',
+          width: 100,
+          listeners: {
+            checkchange: 'onCheckboxChange'
+          }
+        }, 
         {
           header: "CustomerID",
           dataIndex: "customerID",

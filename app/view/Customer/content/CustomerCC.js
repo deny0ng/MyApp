@@ -14,6 +14,7 @@ Ext.define("SalesApp.view.Customer.content.CustomerCC", {
         win.hide();
         Ext.Msg.alert("Success", "Added SuccessFul!");
       },
+      
     });
   },
 });

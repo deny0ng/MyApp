@@ -87,6 +87,16 @@ Ext.define("SalesApp.view.main.Main", {
       ],
     },
     {
+      title: "ADD CUSTOMER",
+      iconCls: "fa-user",
+      // The following grid shares a store with the classic version's grid as well!
+      items: [
+        {
+          xtype: "customerform",
+        },
+      ],
+    },
+    {
       title: "Groups",
       iconCls: "fa-users",
       bind: {
